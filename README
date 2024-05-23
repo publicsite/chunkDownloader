@@ -1,0 +1,19 @@
+chunkDownloader downloads a file from the web in 32M chunks or blocks. If an error is given, the download stops (and the last chunk downloaded is deleted
+to prevent file corruption when continuing downloading). Downloads can be continued from where they left off.
+When all chunks have been downloaded, the file is assembled from the 32M chunks.
+
+This is useful for slow or intermittant internet connections.
+
+The http server you are downloading from requires support for byte serving.
+
+The software is ...
+
+Copyright (C) 2023 J05HYYY
+
+It is provided under the GPL licence.
+
+__________________________________________
+
+To donate:
+
+https://www.paypal.com/donate/?hosted_button_id=SZABYRV48SAXW
